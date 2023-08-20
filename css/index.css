@@ -91,9 +91,16 @@ body{
     font-size: 18px;
     font-weight: 300;
     color: #333;
-    padding-left: 40px;
     padding-bottom: 20px;
+}
+.pub_c li{
+    padding-left: 40px;
     padding-right: 50px;
+}
+.bold{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
 }
 
 /* .exp{
