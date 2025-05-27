@@ -26,10 +26,10 @@
     </div>
     <div class="r">
         <p>Name: Yiqian Li</p>
-        <p>Major: Computer Science and Engineering</p>
-        <p>School: The Chinese University of Hong Kong</p>
-        <p>Email: 120090702@link.cuhk.edu.cn</p>
-        <p>Mobile: (+86) 13660576272</p>
+        <p>Major: Robotics</p>
+        <p>School: University of Pennsylvania</p>
+        <p>Email: liyiqian@seas.upenn.edu</p>
+        <p>Mobile: 215-669-4565</p>
     </div>
 </div>
 
@@ -38,8 +38,9 @@
         <p>Education Background</p>
     </div>
     <div class="edu_c">
-        <p>The Chinese University of Hong Kong (CUHK) | 09/2020 – 07/2024 | GPA:3.6/4.0 | <a href="YiqianLi_transcript.pdf">Transcript</a> </p>
-        <p>The University of California, Irvine (UCI) | 01/2023 – 06/2023 | GPA:4.0/4.0 | <a href="unofficialTranscript_uci.pdf">Transcript</a> </p>
+        <p>University of Pennsylvania (Penn) | MSE. Robotics | 09/2024 – 05/2026 | GPA:3.8/4.0 | <a href="offical_transcript_CUHKSZ.pdf">Transcript</a> </p>
+        <p>The Chinese University of Hong Kong, Shenzhen (CUHKSZ) | BS in Computer Science | 09/2020 – 06/2024 | GPA:3.6/4.0 | <a href="offical_transcript_CUHKSZ.pdf">Transcript</a> </p>
+        <p>The University of California, Irvine (UCI) | 01/2023 – 06/2023 | GPA:4.0/4.0 | <a href="officialTranscript_uci.pdf">Transcript</a> </p>
     </div>
 </div>
 
@@ -49,21 +50,21 @@
         <p>Publications</p>
     </div>
     <div class="pub_c">
-        <p>[1] Aojun Jiang, Miao Hao, <span class="bold">Yiqian Li</span>, Jiaqi Wang, Chunfeng Yue, Zongjie Huang, Ying Yang, Meng Ma, Qifeng
+
+        <p>[1] <span class="bold">Yiqian Li</span>, Wen Jiang, Kostas Daniilidis, "Next-Best-View Selection for Semantic and Dynamic 3D Gaussian Splatting",
+                Submitted to <span class="bold">NeurIPS 2025</span></p>
+
+        <p>[2] Aojun Jiang, Miao Hao, <span class="bold">Yiqian Li</span>, Jiaqi Wang, Chunfeng Yue, Zongjie Huang, Ying Yang, Meng Ma, Qifeng
             Lyu, Yu Sun, Zhuoran Zhang, "Occlusion-Aware Multi-Object Tracking for Point-of-Care sperm Analysis Using
-            Smartphone Imaging", <span class="bold">submitted to IEEE Transactions on Automation Science and Engineering</span> (IF: 6.636)</p>
+            Smartphone Imaging", <span class="bold">IEEE Transactions on Automation Science and Engineering</span> </p>
+        
+        <p>[3] Haodong Jiang, Xiang Zheng, Yanglin Zhang, Qingcheng Zeng, <span class="bold">Yiqian Li</span>, Ziyang Hong, Junfeng Wu, "SCORE:
+            Saturated Consensus Relocalization in Semantic Line Maps", Submitted to <span class="bold">IROS 2025</span></p>
 
-        <p>[2] Zhijing Li, Qiuai Fu, Zhijun Huang, Jianbo Yu, <span class="bold">Yiqian Li</span>, Yuanhao Lai, Yuchi Ma, Pinjia He, 
+        <p>[4] Zhijing Li, Qiuai Fu, Zhijun Huang, Jianbo Yu, <span class="bold">Yiqian Li</span>, Yuanhao Lai, Yuchi Ma, Pinjia He, 
             "Revisiting Log Parsing: The Present, The Future, and The Uncertainties", 
-            <span class="bold">IEEE Transactions on Reliability</span> (IF: 5.883)</p>
+            <span class="bold">IEEE Transactions on Reliability</span></p>
 
-        <p>[3] <span class="bold">Yiqian Li</span>, Miao Hao, Zhuoran Zhang, 
-            “Pseudo Labeling Semi-supervised Classification for Sperm Morhology Analysis Using Smartphone Imaging”, 
-            <span class="bold">under review</span></p>
-
-        <p>[4] <span class="bold">Yiqian Li</span>, Yifan Mei, Xiaoyu Shi, 
-            “A Diffusion Probabilistic Model for Medical image Denoising and Synthesis”, 
-            <span class="bold">under review</span></p>
     </div>
 </div>
 
@@ -75,33 +76,113 @@
     </div>
 
     <div class="exp_n">
-        <p>Medical Image Synthesis and Denoising based on Diffusion Probabilistic Model</p>
+        <p>Next-Best-View Selection for Semantic and Dynamic 3D Gaussian Splatting</p>
     </div>
     <div class="exp_id">
-        UCI | 06/2023 - Present
+        Penn | 03/2025 – 05/2025
     </div>
     <div class="exp_c">
-        <li>Denoising diffusion model for medical image</li>
+        <li>Modeled next-best-view selection as Fisher Information maximization for dynamic semantic 3D Gaussian spaltting.</li>
+        <li>Derived Jacobian-vector approximations of the Fisher matrix for 3D Gaussians and dynamic MLPs under
+            gradient-based rendering.</li>
+        <li>Implemented a fully differentiable pipeline with custom CUDA kernels to support fast Fisher computation within
+            real-time NBV selection loops.</li>
+        <li><span class="bold">The paper "Next-Best-View Selection for Semantic and Dynamic 3D Gaussian Splatting" is received by NeurIPS 2025</span></li>
     </div>
     <div class="exp_img">
-        <img src="img\DM.png" width="500">
+        <img src="img\pipeline.jpg" width="800">
     </div>
 
 
     <div class="exp_n">
-        <p>Sperm Morphology Analysis under Smartphone Imaging</p>
+        <p>Semantic Line-Based Visual Relocalization</p>
     </div>
     <div class="exp_id">
-        CUHK | 12/2022 - Present
+        CUHKSZ | 03/2024 – 08/2024
     </div>
     <div class="exp_c">
-        <li>U-net for segmentation</li>
-        <li>Agglomerative clustering for pseudo label generation</li>
-        <li>ViT for semi-supervised classification</li>
+        <li>Proposed a scene-agnostic visual relocalization framework using compact semantic 3D line maps extracted from
+            posed RGB-D images.</li>
+        <li>Formulated a novel Saturated Consensus Maximization framework to solve robust Perspective-n-Line problems.</li>
+        <li>Designed a globally optimal solver with interval-based Branch-and-Bound acceleration.</li>
+        <li><span class="bold">The paper "SCORE: Saturated Consensus Relocalization in Semantic Line Maps" is received by IROS 2025</span></li>
     </div>
     <div class="exp_img">
-        <img src="img\morp.png" width="500">
+        <img src="img\score.png" width="500">
     </div>
+
+
+
+
+    <div class="exp_n">
+        <p>Sperm Quality Analysis under Smartphone Imaging</p>
+    </div>
+    <div class="exp_id">
+        CUHKSZ | 08/2022 – 12/2022
+    </div>
+    <div class="exp_c">
+        <li>Developed a pseudo-labeling pipeline on standard and unlabeled sperm images.</li>
+        <li>Applied semi-supervised classification to estimate morphologically normal sperm ratios.</li>
+        <li>Optimized U-Net upsampling and improved occlusion-aware JPDA tracking to enhance sperm segmentation and
+            motility analysis.</li>
+        <li><span class="bold">The paper "Occlusion-Aware Multi-Object Tracking for Point-of-Care sperm Analysis Using
+            Smartphone Imaging" is accepted by IEEE Transactions on Automation Science and Engineering</span></li>
+    </div>
+    <div class="exp_img">
+        <video width="500" controls muted autoplay="autoplay">
+            <source src="img\tracking.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+
+
+    <div class="exp_n">
+        <p>Scalable Quadruped Imitation</p>
+    </div>
+    <div class="exp_id">
+        Penn | 05/2025 - 04/2025
+    </div>
+    <div class="exp_c">
+        <li>Learned skeletons from monocular dog videos</li>
+        <li>Retargeted motions via inverse kinematics</li>
+        <li>Designed custom RL rewards to improve gait realism and policy convergence </li>
+    </div>
+    <div class="exp_img">
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/-r3yTYtuqKA?autoplay=1&mute=1"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+
+
+    <div class="exp_n">
+        <p>Pick and Place Robot Competition</p>
+    </div>
+    <div class="exp_id">
+        Penn | 10/2024 - 12/2024
+    </div>
+    <div class="exp_c">
+        <li>Align gripper poses with target objects exhibiting pose equivalence under varying object-centric coordinate systems.</li>
+        <li>Collision-free path planning framework for constrained grasping tasks on a rotating platform.</li>
+        <li>Dynamic object motion prediction module to enable grasping of targets moving on a rotating disk </li>
+    </div>
+    <div class="exp_img">
+        <video id="placeVideo" width="500" controls muted autoplay>
+            <source src="img/RealCompetition_red.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script>
+        const video = document.getElementById('placeVideo');
+        video.playbackRate = 5.0; // Set to 2× speed
+    </script>
+
+
 
 
     <div class="exp_n">
@@ -123,34 +204,16 @@
 
 
     <div class="exp_n">
-        <p>Sperm Video Segmentation and Tracking</p>
-    </div>
-    <div class="exp_id">
-        CUHK | 08/2022 – 12/2022
-    </div>
-    <div class="exp_c">
-        <li>Enhanced up-sampling process in U-Net to accelerate segmentation</li>
-        <li>Enhanced occlusion-flag-enabled PFT model for recognition and tracking</li>
-        <li><span class="bold">A manuscript submitted to IEEE Transactions on Automation Science and Engineering</span></li>
-    </div>
-    <div class="exp_img">
-        <video width="500" controls muted autoplay="autoplay">
-            <source src="img\tracking.mp4" type="video/mp4">
-        </video>
-    </div>
-
-
-    <div class="exp_n">
         <p>Design of a Log Detection and Analysis System for Huawei Cloud Service</p>
     </div>
     <div class="exp_id">
-        CUHK | 09/2021 – 07/2022
+        CUHKSZ | 09/2021 – 07/2022
     </div>
     <div class="exp_c">
         <li>Applied word2vec to calculate semantic similarity of logs</li>
         <li>Extracted invariants among logs and monitor the dependency of invariants</li>
         <li>Analyzed false detection by log parsing algorithms such as Drain, AEL, and IPLoM</li>
-        <li><span class="bold">The paper "Revisiting Log Parsing: The Present, The Future, and The Uncertainties" is received by IEEE Transactions on Reliability</span></li>
+        <li><span class="bold">The paper "Revisiting Log Parsing: The Present, The Future, and The Uncertainties" is accepted by IEEE Transactions on Reliability</span></li>
     </div>
     <div class="exp_img">
         <img src="img\log.png" width="500">
